@@ -1,8 +1,8 @@
 # Authentication
 
-Given an `app.js` file and a database file `userData.db` consisting of a  table `user`.
+A database file `userData.db` consisting of a  table `user`.
 
-Write APIs to perform operations on the table `user` containing the following columns,
+APIs to perform operations on the table `user` containing the following columns,
 
 **User Table**
 
@@ -24,11 +24,11 @@ Write APIs to perform operations on the table `user` containing the following co
 
 ```
 {
-  "username": "adam_richard",
-  "name": "Adam Richard",
-  "password": "richard_567",
+  "username": "tejachennuru",
+  "name": "Teja Chennuru",
+  "password": "12345678",
   "gender": "male",
-  "location": "Detroit"
+  "location": "Hyderabad"
 }
 ```
 
@@ -89,8 +89,8 @@ Write APIs to perform operations on the table `user` containing the following co
 **Request**
 ```
 {
-  "username": "adam_richard",
-  "password": "richard_567"
+  "username": "tejachennuru",
+  "password": "12345678"
 }
 ```
 
@@ -152,9 +152,9 @@ Write APIs to perform operations on the table `user` containing the following co
 
 ```
 {
-  "username": "adam_richard",
-  "oldPassword": "richard_567",
-  "newPassword": "richard@123"
+  "username": "tejachennuru",
+  "oldPassword": "12345678",
+  "newPassword": "01230123"
 }
 ```
 
